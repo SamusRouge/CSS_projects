@@ -1,5 +1,8 @@
 body{
 	  font-family: century-gothic, sans-serif;
+    background-image: url("https://i.pinimg.com/564x/8a/1a/60/8a1a607dc0a9a240c3ffc84f0a994150.jpg") ;
+    background-repeat: repeat-x;
+    background-blend-mode: overlay;
 	  background-color: #CFC2BC;
 	  border: 5 px;
 	  border-color: black;
@@ -7,6 +10,12 @@ body{
 	  border-width: 3px;
 	  border-radius: 20px;
 
+
+}
+
+p{
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
@@ -37,6 +46,7 @@ h1.title {
   margin-top: 0px;
   padding-top: 0px;
   border-top: 0px;
+  overflow: hidden;
 }
 
 ul {
@@ -44,17 +54,34 @@ ul {
   overflow: hidden;
 }
   
-
+div.QR{
+  text-align: justify;
+  padding-bottom: 2px;
+}
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
+.izq{
+  clear:left;
+}
+.logo-img{
+width:25%;
+padding: 0px;
+margin-top: 7px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+position: static;
+top: 0px;
+left: 40%}
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
+  
     
   }
   .col-lg-1 {
@@ -98,7 +125,7 @@ ul {
 /********** Medium devices only **********/
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
+    
  
   }
   .col-md-1 {
@@ -141,7 +168,7 @@ ul {
 /********** small devices only **********/
 @media (max-width: 949px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
+  
  
   }
   .col-sm-1 {
