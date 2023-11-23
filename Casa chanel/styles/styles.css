@@ -69,6 +69,12 @@ h1.title {
   padding-top: 0px;
   border-top: 0px;
   overflow: hidden;
+
+}
+
+p {
+    margin-block-start: -10px;
+  margin-block-end: -10px;
 }
 
 ul {
@@ -90,7 +96,7 @@ div.QR{
   clear:left;
 }
 .logo-img{
-width:25%;
+width:40%;
 padding: 0px;
 margin-top: 7px;
 display: block;
@@ -101,22 +107,30 @@ top: 0px;
 left: 40%}
 
 .nails{
-width:33%;
+width:40%;
 position: absolute;
-left: 0px;
+left: -4%;
 top: 5%;
 padding: 0px;
-border: 0px;
 margin: 0px;
+border-radius: 100% 100% 100%  100%;
 }
 
 .eyebrow{
-width:33%;
+width:40%;
 position: absolute;
-right: 0px;
+right: -4%;
 top: 5%;
 border: 0px;
-margin: 0px;}
+margin: 0px;
+border-radius: 100% 100% 100%  100%;}
+
+.marco {
+  width:43%;
+  position: absolute;
+  right: -4%;
+  top: -5%;
+}
 
 
 
