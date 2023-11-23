@@ -100,9 +100,28 @@ position: static;
 top: 0px;
 left: 40%}
 
-a:link, a:hover, a:visited{
-	text-decoration:none;
+.nails{
+width:33%;
+position: absolute;
+left: 0px;
+top: 5%;
+padding: 0px;
+border: 0px;
+margin: 0px;
 }
+
+.eyebrow{
+width:33%;
+position: absolute;
+right: 0px;
+top: 5%;
+border: 0px;
+margin: 0px;}
+
+
+
+
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
