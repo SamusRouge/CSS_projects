@@ -1,0 +1,26 @@
+body {
+  font-family: 'Archivo', sans-serif;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.combos-personales {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.rojo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: red;
+}
+
+.adicionales{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
