@@ -12,7 +12,10 @@ body{
 
 
 }
-
+p{
+ 	font-weight: bold;
+	font-size: 0.5em;
+}
 /**https://i.pinimg.com/564x/8a/1a/60/8a1a607dc0a9a240c3ffc84f0a994150.jpg**/
 
 a:link {
@@ -33,11 +36,6 @@ a:hover {
 a:active {
   text-decoration: none;
   color: black;
-}
-}
-p{
-  font-weight: bold;
-  text-decoration: none;
 }
 
 
