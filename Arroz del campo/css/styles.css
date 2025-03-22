@@ -2,25 +2,127 @@ body {
   font-family: 'Archivo', sans-serif;
 
 }
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-}
-.combos-personales {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+/*area 1 formatting*/
+.area-1{
+  float:right;
+  margin-top: 0px;
+  display: inline-block;
 
 }
-.rojo{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+h1{
+  color: red;
+  padding: 0 25% 0 0;
+  font-family: arial black;
+}
+
+.area-1 p{
+  color: red;
+  text-align: center;
+  font-weight: 900;
+}
+.area-1 h3, .area-1 h2{
+  text-align: center;
+}
+.area-1 em{
+  color: black;
+  font-style: normal;
+}
+.left p {
+  float: left;
+
+}
+.right p {
+  float: right;
+  clear: right;
+}
+.center p {
+ display: inline-block;
+ padding: 0 45%;
+}
+
+.area-1 h3{
+  margin-top: 0;
+  padding-top: 0;
+  letter-spacing: 2.5px;
+
+}
+
+.area-1 h2{
+  margin-bottom: 0;
+  scroll-padding-bottom: 0;
+}
+/* area 21*/
+
+.area-21{
+  border-right-color: red;
+ /* float: left;*/
+  border-radius: 1px;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  border-right-style: solid;
+  display: inline-block;
+}
+.area-21 h2{
   background-color: red;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
 }
+.area-21 h3{
+  text-transform: uppercase;
+  color: red;
+}
+.area-21 h5{
+ display: inline-block; 
+ float: right;
+ margin-right: 5px;
+ background-color: red;
+ color: white;
+border-radius: 3px;
+padding-top: 1px;
+padding-bottom: 1px;
 
-.adicionales{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+}
+.area-21 p{
+  display: inline-block;
+  font-weight: bolder;
 
+}
+/*area 22*/
+.area-22{
+  border-right-color: red;
+ /* float: left;*/
+  border-radius: 1px;
+  border-left: none;
+  border-bottom: none;
+  border-top: none;
+  border-right-style: solid;
+  display: inline-block;
+}
+.area-22 h3 {
+  text-transform: uppercase;
+}
+.area-22 h5 {
+  display: inline-block;
+}
+.area-22 p {
+  display: inline-block;
+}
+.area-22 br{
+  margin:0px;
+}
+.pollo {
+  text-align: center;
+  
+}
+.pollo p{
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px; 
+   margin: 0 auto 0 auto;
+}
+.red {
+  color: red;
 }
