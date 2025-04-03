@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: 'Archivo', sans-serif;
 
@@ -52,22 +55,26 @@ h1{
   scroll-padding-bottom: 0;
 }
 /* area 21*/
-
+.area-21{
+  height: 600px;
+}
 .area-211{
   border-right-color: red;
- /* float: left;*/
+  float: left;
   border-radius: 1px;
   border-left: none;
   border-bottom: none;
   border-top: none;
   border-right-style: solid;
   display: inline-block;
+  width: 25%;
 }
 .area-211 h2{
   background-color: red;
   color: white;
   text-transform: uppercase;
   text-align: center;
+  margin: 0px;
 }
 .area-211 h3{
   text-transform: uppercase;
@@ -87,18 +94,21 @@ padding-bottom: 1px;
 .area-211 p{
   display: inline-block;
   font-weight: bolder;
+  margin: 0px;
 
 }
 /*area 212*/
 .area-212{
   border-right-color: red;
- /* float: left;*/
+  float: left
   border-radius: 1px;
   border-left: none;
   border-bottom: none;
   border-top: none;
   border-right-style: solid;
   display: inline-block;
+  width: 25%;
+
 }
 .area-212 h3 {
   text-transform: uppercase;
@@ -131,6 +141,9 @@ padding-bottom: 1px;
   background-color: red;
   color: white;
   font-style: italic;
+  width: 50%;
+  overflow: auto;
+
 }
 .area-23 h2 {
   background-color: white;
@@ -162,7 +175,14 @@ padding-bottom: 1px;
 .area-23 em{
   font-weight: 900;
 }
+.area-231, .area-232, .area-233{
+  float: left;
+  width: 33%;
+  border-radius: 1px;
+  border-right-style: solid;
+  border-right-color: white;
 
+}
 /*area-24*/
 .area-24 h2{
   background-color: red;
@@ -177,8 +197,19 @@ padding-bottom: 1px;
   font-weight: bolder;
   font-style: normal;
 }
-
+.area-24{
+  width: 25%;
+  float: left;
+    border-radius: 1px;
+  border-right-style: solid;
+  border-right-color: red;
+}
 /*area-25*/
+.area-25{
+  font-style: italic;
+  width: 25%;
+  float: left;
+}
 .area-25 h2{
   background-color: red;
   color: white;
